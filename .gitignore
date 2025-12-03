@@ -117,3 +117,56 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Local configuration
+local.properties
+.env
+.env.*
+!.env.example
+
+# Flutter/Dart
+**/generated_plugin_registrant.dart
+**/generated_plugins/
+**/Flutter.podspec
+**/Pods/
+**/Podfile.lock
+
+# Build outputs
+build/
+**/build/
+**/.dart_tool/
+**/generated_plugins/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# VS Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Android Studio specific
+.idea/
+*.iml
+.gradle/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride

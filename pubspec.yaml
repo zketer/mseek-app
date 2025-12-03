@@ -1,0 +1,109 @@
+name: mseek
+description: 博物馆打卡Flutter应用
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  # 状态管理
+  provider: ^6.1.1
+  
+  # 路由导航
+  go_router: ^12.1.3
+  
+  # HTTP请求
+  dio: ^5.4.0
+  
+  # 本地存储
+  shared_preferences: ^2.2.2
+  
+  # 图片缓存和加载
+  cached_network_image: ^3.3.0
+  
+  # 位置服务
+  geolocator: ^10.1.0
+  
+  # 权限管理
+  permission_handler: ^11.2.0
+  
+  # 图片选择器
+  image_picker: ^1.0.7
+  
+  # 路径提供者
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # JSON序列化
+  json_annotation: ^4.8.1
+  
+  # 国际化和日期格式化
+  intl: ^0.18.1
+  
+  # 轮播图组件 - 使用Flutter内置PageView
+  
+  # 下拉刷新
+  pull_to_refresh: ^2.0.0
+  
+  # 加载动画
+  shimmer: ^3.0.0
+  
+  # 图标库
+  flutter_svg: ^2.0.9
+  
+  # 微信SDK
+  fluwx: ^5.7.2
+  
+  # 支付宝SDK
+  tobias: ^3.0.0
+  
+  # URL启动器（用于拨打电话、打开链接等）
+  url_launcher: ^6.2.2
+  
+  # 设备信息
+  device_info_plus: ^9.1.1
+  package_info_plus: ^5.0.1
+  
+  # 生物识别（指纹/面容）
+  local_auth: ^2.1.8
+  
+  # 安全存储（加密保存敏感数据）
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^3.0.1
+  
+  # JSON序列化代码生成
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.7
+  
+  # 应用图标生成工具
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  # 添加资源文件
+  assets:
+    - assets/images/
+    - assets/icons/
+
+# 应用图标配置
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  # 自适应图标（Android）
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
+  adaptive_icon_background: "#ff9999"  # 使用应用主题色作为背景
+  # iOS配置
+  remove_alpha_ios: true
