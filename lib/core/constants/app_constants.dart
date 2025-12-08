@@ -1,7 +1,7 @@
 /// 应用常量定义
 class AppConstants {
   // 应用信息
-  static const String appName = '博物馆打卡';
+  static const String appName = '文博探索';
   static const String appVersion = '0.0.1';
   static const String appDescription = '发现身边的文化宝藏';
   

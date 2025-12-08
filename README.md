@@ -490,7 +490,7 @@ limitations under the License.
 
 <div align="center">
 
-**MSeek 博物馆打卡应用**
+**MSeek 文博探索应用**
 
 探索文化 · 记录足迹 · 分享美好
 
