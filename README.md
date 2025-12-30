@@ -416,6 +416,11 @@ flutter build apk
 
 - 📘 **开发文档**: 详细的开发指南和最佳实践
 - 📗 **API 对接说明**: 后端 API 接口文档
+| 资源 | 链接 |
+|-----|------|
+| 后端 | [查看](https://github.com/zketer/mseek-admin-backend) |
+| 前端 | [查看](https://github.com/zketer/mseek-admin-frontend |
+| 部署 | [查看](https://github.com/zketer/mseek-deploy |
 
 ### 🔗 外部资源
 
@@ -425,7 +430,6 @@ flutter build apk
 | Dart 官方文档 | [查看](https://dart.dev/guides) | Dart 语言参考 |
 | Provider 文档 | [查看](https://pub.dev/packages/provider) | 状态管理库 |
 | GoRouter 文档 | [查看](https://pub.dev/packages/go_router) | 路由管理库 |
-
 ---
 
 ## 🤝 贡献指南
