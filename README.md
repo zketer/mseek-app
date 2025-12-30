@@ -418,7 +418,7 @@ flutter build apk
 - 📗 **API 对接说明**: 后端 API 接口文档
 
 | 资源 | 链接 | 说明 |
-|-----|------|
+|-----|------|------|
 | 后端 | [查看](https://github.com/zketer/mseek-admin-backend) | mseek-admin-backend |
 | 前端 | [查看](https://github.com/zketer/mseek-admin-frontend) | mseek-admin-frontend |
 | 部署 | [查看](https://github.com/zketer/mseek-deploy) | mseek-deploy |
